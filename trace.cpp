@@ -443,12 +443,12 @@ int main(int argc, char *argv[]) {
     }
      */
     //Tracer tracer(argv[optind++]);
-    Tracer tracer("/Users/billlu/Desktop/Study/Others/Graphic/as2-StarterVersion/InputFiles/balls.nnf");
+    Tracer tracer("/Users/billlu/Desktop/Study/Others/Graphic/as2-StarterVersion/InputFiles/mount.nnf");
     tracer.aperture = aperture;
     tracer.samples = samples;
     tracer.color = color;
     tracer.maxraydepth = maxraydepth;
     tracer.traceImage();
     //tracer.writeImage(argv[optind++]);
-    tracer.writeImage("/Users/billlu/Desktop/Study/Others/Graphic/as2-StarterVersion/InputFiles/balls.ppm");
+    tracer.writeImage("/Users/billlu/Desktop/Study/Others/Graphic/as2-StarterVersion/InputFiles/mount.ppm");
 };
